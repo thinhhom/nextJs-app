@@ -1,0 +1,66 @@
+[data-bs-theme="dark"] .nav-pills .nav-link.active,[data-bs-theme="dark"] .nav-pills .show>.nav-link{
+    background-color: var(--bs-white);
+    color: var(--bs-primary);
+  }
+
+  /* Bootstrap's default styling for pagination */
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.page-item {
+    display: inline;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin: 0;
+    line-height: 1.25;
+    color: #007bff;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+}
+
+.page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item.disabled .page-link:hover {
+    color: #6c757d;
+}
+
+.page-item:not(.disabled) .page-link {
+    cursor: pointer;
+}
+
+.page-item:not(.disabled) .page-link:hover {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+/* Custom styling for pagination container */
+.pagination-container {
+    margin: 20px 0;
+}

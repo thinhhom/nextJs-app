@@ -1,0 +1,82 @@
+
+.card {
+    border-radius: 10px;
+}
+.order-sidemenu__user-name p {
+    margin: 0;
+    font-weight: bold;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Bọc toàn bộ nội dung trong một khung với box-shadow */
+.box-shadow-wrapper {
+    padding: 1rem; /* Padding xung quanh nội dung */
+    background-color: #fff; /* Màu nền của khung */
+    border-radius: 0.5rem; /* Bo tròn các góc của khung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng khung */
+}
+
+/* Đảm bảo cột bên có độ rộng chính xác và căn chỉnh */
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Căn chỉnh các phần tử bên trong cột */
+}
+
+/* Đảm bảo hình đại diện người dùng và tên được căn giữa theo chiều dọc */
+.order-sidemenu__user {
+    display: flex;
+    flex-direction: column; /* Đặt hình đại diện và tên theo chiều dọc */
+    align-items: center; /* Căn giữa các phần tử theo chiều ngang */
+    text-align: center; /* Căn giữa văn bản */
+    margin-bottom: 1rem; /* Khoảng cách dưới phần thông tin người dùng */
+}
+
+.order-sidemenu__user-avatar {
+    margin-bottom: 0.5rem; /* Khoảng cách giữa hình đại diện và tên người dùng */
+}
+
+.order-sidemenu__user-avatar img {
+    width: 100px; /* Kích thước của hình đại diện */
+    height: 100px; /* Kích thước của hình đại diện */
+}
+
+.order-sidemenu__user-name {
+    font-size: 16px; /* Kích thước chữ tên người dùng */
+}
+
+/* Đảm bảo danh sách các mục trong menu bên có khoảng cách và căn chỉnh tốt */
+.custom-list {
+    padding-left: 0; /* Loại bỏ padding mặc định của ul */
+}
+
+.custom-list li {
+    margin-bottom: 0.5rem; /* Khoảng cách giữa các mục danh sách */
+}
+
+.custom-list a {
+    text-decoration: none; /* Loại bỏ gạch chân khỏi liên kết */
+    font-size: 16px; /* Kích thước chữ */
+    padding: 0.5rem; /* Padding xung quanh nội dung liên kết */
+    display: flex;
+    align-items: center; /* Canh giữa biểu tượng và văn bản dọc theo trục y */
+}
+
+.custom-list i {
+    font-size: 18px; /* Kích thước biểu tượng */
+    margin-right: 0.5rem; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
